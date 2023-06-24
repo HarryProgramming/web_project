@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>finalweb</title>
+
+    <!-- //CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- importing bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- importing selfcss -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body class="whole">
+
+    <!-- 導覽列 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <div class="container-fluid ">
+            <a class="navbar-brand text-white" href="./homepage.html">ABC .co</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#bgimg">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#aboutUs">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#developers">Developers</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- body第一部分(背景圖+標語) -->
+    <div id="bgimg" class="text-center text-white bg-dark">
+        <div class="spiritword fs-1">Lorem ipsum dolor sit amet cons</div>
+    </div>
+
+
+    <!-- body第二部分(about us) -->
+    <div class="aboutus row" id="aboutUs">
+
+        <div class="mb-5">
+            <div class="text-center fs-3 ">
+                <i class="fas fa-paper-plane"></i>
+                About us
+            </div>
+        </div>
+
+        <div class="lefttop col-6 text-white">
+            <div class="fs-1 mb-3 ">Motivation</div>
+            <div class="fs-5 ">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est commodi consequatur laborum dolores
+                officia
+                facilis ducimus minus sequi rem? Officia atque tempora nesciunt, ea possimus, numquam dolor impedit
+                quibusdam incidunt amet modi illum porro quaerat molestias consequuntur perspiciatis doloremque quisquam
+                deleniti cum laudantium totam doloribus minima corrupti alias! Deleniti, modi
+
+            </div>
+
+        </div>
+        <div class="righttop col-6" id="righttopbgimg" data-aos="flip-down">
+        </div>
+
+
+        <div class="leftcen col-6" id="leftcenbgimg" data-aos="flip-down">
+        </div>
+        <div class="rightcen col-6 text-white">
+            <div class="fs-1 mb-3 ">Progress</div>
+            <div class="fs-5 ">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est commodi consequatur laborum dolores
+                officia
+                facilis ducimus minus sequi rem? Officia atque tempora nesciunt, ea possimus, numquam dolor impedit
+                quibusdam incidunt amet modi illum porro quaerat molestias consequuntur perspiciatis doloremque quisquam
+                deleniti cum laudantium totam doloribus minima corrupti alias! Deleniti, modi
+
+            </div>
+
+        </div>
+
+
+        <div class="leftbottom col-6 text-white">
+            <div class="fs-1 mb-3 ">Our vision</div>
+            <div class="fs-5 ">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est commodi consequatur laborum dolores
+                officia
+                facilis ducimus minus sequi rem? Officia atque tempora nesciunt, ea possimus, numquam dolor impedit
+                quibusdam incidunt amet modi illum porro quaerat molestias consequuntur perspiciatis doloremque quisquam
+                deleniti cum laudantium totam doloribus minima corrupti alias! Deleniti, modi
+
+            </div>
+
+        </div>
+        <div class="rightbottom col-6" id="rightbottombgimg" data-aos="flip-down">
+        </div>
+
+
+
+
+
+    </div>
+
+
+    <!-- body第三部分(products) -->
+    <div class="product row" id="products">
+        <div class="mb-5">
+            <div class="text-center fs-3 ">
+                <i class="fas fa-sitemap"></i>
+                Product
+            </div>
+        </div>
+
+        <!-- product carousel -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://picsum.photos/id/168/1800/550" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://picsum.photos/id/304/1800/550" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://picsum.photos/id/183/1800/550" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- product carousel end -->
+
+        <!-- product preview -->
+        <div class=" p-4 text-start mt-5 fs-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus accusantium numquam, quia perferendis
+            quibusdam debitis assumenda perspiciatis velit optio atque fugit! Ducimus possimus nobis tempore laboriosam
+            ab expedita distinctio quia incidunt fuga quasi aut impedit a totam tempora minima facilis assumenda, natus
+            obcaecati officia sint consequatur error dolorem eos! Ipsam?Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Non veritatis saepe sit sunt quam, dolor placeat dolore maiores temporibus quae enim
+            nesciunt totam nihil voluptatibus nemo assumenda inventore eaque corrupti consequuntur eum a hic quisquam?
+            Corporis dolore qui enim sunt provident natus recusandae fugit repellat eum est ipsam nobis optio
+            necessitatibus labore placeat nemo aspernatur, earum, odit alias perspiciatis quae quibusdam iusto nihil.
+            Quam alias blanditiis id maiores, repellendus enim repudiandae perferendis quas tempora deserunt aperiam
+            culpa officiis voluptatibus cupiditate laudantium molestiae dolorem unde tenetur. Ut, perspiciatis
+            consequuntur unde cupiditate qui eos inventore quia repudiandae libero quibusdam ex necessitatibus numquam.
+
+        </div>
+        <!-- product preview end -->
+
+
+        <!-- hidden div for opacity -->
+        <div class="hiddendivforopacity w-100">
+
+        </div>
+        <!-- hidden div for opacity end -->
+
+
+        <!-- product category -->
+        <div class="card-group pt-4 CARD">
+            <div class="card">
+                <div class="cardimg">
+                    <img src="https://picsum.photos/id/1070/400/400" class="card-img-top" alt="...">
+
+                </div>
+
+                <div class="card-body">
+                    <h3 class="card-title producttitle fw-bolder">Product type1</h3>
+                    <p class="card-text productinner fw-light">This is a wider card with supporting text below as a
+                        natural
+                        lead-in to
+                        additional content. This content is a little bit longer......
+                        <i class="readmorebutton1 fas fa-chevron-down fs-4"></i>
+                    </p>
+
+                    <button type="button" class="btn btn-outline-success">Purchase now</button>
+
+                </div>
+
+                <!-- product detail hidden -->
+                <div class="productDetailHidden1 ">
+                    <!-- <i class="cross1 fas fa-times"></i> -->
+
+                    <!-- product detail hidden carousel -->
+
+
+                    <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel"
+                        data-bs-interval="5000">
+                        <div class="carousel-indicators PDHCindicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://picsum.photos/id/1070/1000/300" class=" PDHCimg d-block w-100"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://picsum.photos/id/1072/1000/300" class=" PDHCimg d-block w-100"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://picsum.photos/id/133/1000/300" class=" PDHCimg d-block w-100"
+                                    alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev PDHCprev" type="button"
+                            data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next PDHCprev" type="button"
+                            data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+
+
+
+                    <!-- product detail hidden carousel end -->
+
+                    <!-- PDHC文字介紹 -->
+                    <div class="productdetailtext container fs-5">
+
+                        <h1 class="text-center pb-2">Product1</h1>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error repudiandae fuga soluta dolor
+                        aliquid voluptatum quis quae placeat ut quidem sunt, ex optio itaque illo iure rem perferendis a
+                        fugiat hic quasi incidunt fugit debitis. Dolores magni enim minima itaque porro nesciunt
+                        incidunt quaerat ut totam dolorem amet corrupti adipisci odit sed alias expedita neque
+                        asperiores inventore molestiae tempore dicta libero corporis, quas repellendus. Iure dignissimos
+                        libero minima nisi iusto, mollitia voluptate? Aspernatur rem velit sit iste pariatur aut
+                        quibusdam, nostrum natus quae ipsum, recusandae sed, asperiores a fugit cum vitae! Nemo, ipsa
+                        velit accusantium sint animi magnam perferendis, veritatis labore ad nostrum harum rem odio.
+                        Suscipit enim quibusdam velit, voluptatum tempore porro molestiae voluptates eveniet asperiores
+                        similique mollitia iure, explicabo exercitationem hic quisquam libero saepe quia? Fugit optio
+                        ullam rerum, a exercitationem error temporibus hic itaque nemo maxime autem modi officiis
+                        debitis est. Similique quae
+                    </div>
+
+
+                    <!-- PDHC文字介紹end -->
+
+
+                </div>
+
+
+
+                <!-- product detail hidden end -->
+
+            </div>
+            <div class="card">
+                <div class="cardimg">
+                    <img src="https://picsum.photos/id/1071/400/400" class="card-img-top" alt="...">
+                </div>
+
+                <div class="card-body">
+                    <h3 class="card-title producttitle fw-bolder">Product type2</h3>
+                    <p class="card-text productinner fw-light">This card has supporting text below as a natural lead-in
+                        to
+                        additional
+                        content......
+
+                        <i class="readmorebutton2 fas fa-chevron-down fs-4"></i>
+                    </p>
+                    <button type="button" class="btn btn-outline-success">Purchase now</button>
+
+                </div>
+
+                <!-- product detail hidden -->
+                <div class="productDetailHidden2">
+                    <!-- <i class="cross2 fas fa-times"></i> -->
+                    <!-- product detail hidden carousel -->
+
+
+                    <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="carousel"
+                        data-bs-interval="5000">
+                        <div class="carousel-indicators PDHCindicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://picsum.photos/id/1071/1000/300" class=" PDHCimg d-block w-100"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://picsum.photos/id/1077/1000/300" class=" PDHCimg d-block w-100"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://picsum.photos/id/182/1000/300" class=" PDHCimg d-block w-100"
+                                    alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev PDHCprev" type="button"
+                            data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next PDHCprev" type="button"
+                            data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+
+
+
+                    <!-- product detail hidden carousel end -->
+
+                    <!-- PDHC文字介紹 -->
+                    <div class="productdetailtext container fs-5">
+                        <h1 class="text-center pb-2">Product2</h1>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error repudiandae fuga soluta dolor
+                        aliquid voluptatum quis quae placeat ut quidem sunt, ex optio itaque illo iure rem perferendis a
+                        fugiat hic quasi incidunt fugit debitis. Dolores magni enim minima itaque porro nesciunt
+                        incidunt quaerat ut totam dolorem amet corrupti adipisci odit sed alias expedita neque
+                        asperiores inventore molestiae tempore dicta libero corporis, quas repellendus. Iure dignissimos
+                        libero minima nisi iusto, mollitia voluptate? Aspernatur rem velit sit iste pariatur aut
+                        quibusdam, nostrum natus quae ipsum, recusandae sed, asperiores a fugit cum vitae! Nemo, ipsa
+                        velit accusantium sint animi magnam perferendis, veritatis labore ad nostrum harum rem odio.
+                        Suscipit enim quibusdam velit, voluptatum tempore porro molestiae voluptates eveniet asperiores
+                        similique mollitia iure, explicabo exercitationem hic quisquam libero saepe quia? Fugit optio
+                        ullam rerum, a exercitationem error temporibus hic itaque nemo maxime autem modi officiis
+                        debitis est. Similique quae
+                    </div>
+
+
+                    <!-- PDHC文字介紹end -->
+
+
+                </div>
+
+
+
+                <!-- product detail hidden end -->
+
+            </div>
+            <div class="card">
+                <div class="cardimg">
+                    <img src="https://picsum.photos/id/111/400/400" class="card-img-top" alt="...">
+                </div>
+
+
+                <div class="card-body">
+                    <h3 class="card-title producttitle fw-bolder">Product type3</h3>
+                    <p class="card-text productinner fw-light">This is a wider card with supporting text below as a
+                        natural
+                        lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action......
+                        <i class="readmorebutton3 fas fa-chevron-down fs-4"></i>
+                    </p>
+                    <button type="button" class="btn btn-outline-success">Purchase now</button>
+
+                </div>
+            </div>
+
+
+            <!-- product detail hidden -->
+            <div class="productDetailHidden3">
+                <!-- <i class="cross3 fas fa-times"></i> -->
+
+                <!-- product detail hidden carousel -->
+
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
+                    data-bs-interval="5000">
+                    <div class="carousel-indicators PDHCindicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://picsum.photos/id/111/1000/300" class=" PDHCimg d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://picsum.photos/id/252/1000/300" class=" PDHCimg d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://picsum.photos/id/26/1000/300" class=" PDHCimg d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev PDHCprev" type="button"
+                        data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next PDHCprev" type="button"
+                        data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+
+
+
+                <!-- product detail hidden carousel end -->
+
+                <!-- PDHC文字介紹 -->
+                <div class="productdetailtext container fs-5">
+                    <h1 class="text-center pb-2">Product3</h1>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error repudiandae fuga soluta dolor
+                    aliquid voluptatum quis quae placeat ut quidem sunt, ex optio itaque illo iure rem perferendis a
+                    fugiat hic quasi incidunt fugit debitis. Dolores magni enim minima itaque porro nesciunt
+                    incidunt quaerat ut totam dolorem amet corrupti adipisci odit sed alias expedita neque
+                    asperiores inventore molestiae tempore dicta libero corporis, quas repellendus. Iure dignissimos
+                    libero minima nisi iusto, mollitia voluptate? Aspernatur rem velit sit iste pariatur aut
+                    quibusdam, nostrum natus quae ipsum, recusandae sed, asperiores a fugit cum vitae! Nemo, ipsa
+                    velit accusantium sint animi magnam perferendis, veritatis labore ad nostrum harum rem odio.
+                    Suscipit enim quibusdam velit, voluptatum tempore porro molestiae voluptates eveniet asperiores
+                    similique mollitia iure, explicabo exercitationem hic quisquam libero saepe quia? Fugit optio
+                    ullam rerum, a exercitationem error temporibus hic itaque nemo maxime autem modi officiis
+                    debitis est. Similique quae
+                </div>
+
+
+                <!-- PDHC文字介紹end -->
+
+            </div>
+
+
+
+            <!-- product detail hidden end -->
+
+
+        </div>
+
+
+        <!-- product category end -->
+
+
+
+    </div>
+
+    <!-- body第四部份(developers+ending結尾的一些商標及小字) -->
+    <div class="developers  row" id="developers">
+        <div class="mb-5">
+            <div class="text-center fs-3 ">
+                <i class="fas fa-address-card"></i>
+                Developers
+            </div>
+        </div>
+        <!-- <div class="firstsection">
+            <div class="col-3">
+
+            </div>
+            <div class="col-9">
+
+            </div>
+
+        </div>
+
+        <div class="secondsection">
+            <div class="col-3">
+
+            </div>
+            <div class="col-9">
+
+            </div>
+
+        </div> -->
+
+
+        <div class="card mb-3 dev1" style="max-width: 1000px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="https://picsum.photos/id/237/400/300" class="img-fluid rounded-start w-100" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+    <div class="lastpart text-center">
+        <div class="fs-7">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, exercitationem, nostrum,
+            rem ex adipisci
+            officia similique quis ducimus maxime hic dicta eligendi provident! Quasi beatae voluptatem quos veniam
+            commodi
+            vitae non aperiam perferendis obcaecati facere. Doloremque alias adipisci, blanditiis vitae voluptate
+            tempora,
+            nam ullam dolor nulla error totam illum consectetur quae placeat dolore sapiente, est nihil velit eos minima
+            doloribus nostrum. Est saepe natus autem enim explicabo adipisci voluptate recusandae, dolores iste
+            perferendis
+            animi sequi aspernatur suscipit totam laborum expedita corporis inventore quas. Sequi rem fuga quis! Quo,
+            nostrum! Odit, libero eaque quae molestiae debitis animi magni exercitationem enim dolorem!</div>
+
+    </div>
+
+
+
+
+
+
+    <!-- importing bootstrap javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+        crossorigin="anonymous"></script>
+    <!-- importing jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- importingselfjs -->
+    <script src="./main.js"></script>
+
+    <!-- //JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+</body>
+
+</html>

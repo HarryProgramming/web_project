@@ -1,0 +1,370 @@
+/* .navbaratag{
+    text-decoration: none;
+    padding-right:10px;
+}
+
+.navbar{
+    display:block;
+    width:100%;
+    position:fixed;
+    z-index: 1000;
+}
+
+.collapse{
+    z-index: 1000;
+} */
+
+
+
+#navbarNav{
+    padding-right: 80px;
+    z-index: 998;
+}
+
+#bgimg{
+    height:1000px;
+    background-image: url("https://picsum.photos/id/556/1980/1000");
+    background-size: cover;
+    background-position: center center;
+    padding-top: 400px;
+    
+}
+
+.aboutus{
+    width:100%;
+    /* height:1000px; */
+    color:burlywood;
+    padding: 50px;
+    margin:0;
+    /* display: block; */
+    background-color: rgb(1, 21, 24);
+    
+}
+
+.product{
+    width:100%;
+    /* height:1000px; */
+    color:burlywood;
+    padding: 50px;
+    margin:0;
+    /* display: block; */
+    background-color: rgb(1, 21, 24);
+    padding-top: 100px;
+
+}
+
+.lefttop{
+    background-color: rgba(204, 156, 83, 0.801);
+    height:400px;
+    padding-top: 100px;
+    padding-left:30px;
+    padding-right: 30px;
+    z-index: 998;
+    
+}
+
+.righttop{
+    background-color:blue;
+    height:400px;
+    
+}
+
+#righttopbgimg{
+    background-image: url("https://picsum.photos/id/1041/1980/400");
+    background-size: cover;
+    background-position: center center;
+}
+
+.lefttop:hover{
+    box-shadow: -10px -10px 40px rgb(88, 63, 24);
+    transition: all .3s ease;
+    background-color: rgb(175, 124, 47);
+}
+
+/* .btndiv{
+    
+    margin-left: 500px;
+    
+} */
+
+.rightcen{
+    background-color: rgba(204, 156, 83, 0.801);
+    height:400px;
+    padding-top: 100px;
+    padding-left:30px;
+    padding-right: 30px;
+    z-index: 998;
+}
+
+.leftcen{
+    background-color:blue;
+    height:400px;
+    
+}
+
+#leftcenbgimg{
+    background-image: url("https://picsum.photos/id/1042/1980/400");
+    background-size: cover;
+    background-position: center center;
+}
+
+.rightcen:hover{
+    box-shadow: 10px 0px 40px rgb(88, 63, 24);
+    transition: all .3s ease;
+    background-color: rgb(175, 124, 47);
+}
+
+
+.leftbottom{
+    background-color: rgba(204, 156, 83, 0.801);
+    height:400px;
+    padding-top: 100px;
+    padding-left:30px;
+    padding-right: 30px;
+    z-index: 998;
+}
+
+.rightbottom{
+    background-color:blue;
+    height:400px;
+    
+}
+
+#rightbottombgimg{
+    background-image: url("https://picsum.photos/id/1043/1980/400");
+    background-size: cover;
+    background-position: center center;
+}
+
+.leftbottom:hover{
+    box-shadow: -10px 10px 40px rgb(88, 63, 24);
+    transition: all .3s ease;
+    background-color: rgb(175, 124, 47);
+}
+
+
+.carousel-inner{
+    height:550px;
+}
+
+.card-img-top{
+    height:400px;
+    transition: all .3s ease;
+    
+}
+
+.card-img-top:hover{
+    transform : scale(1.5);
+}
+
+
+.card-group{
+    padding-left:300px;
+    padding-right:300px;
+}
+
+.cardimg{
+    overflow: hidden;
+}
+
+.readmorebutton{
+    padding-left: 10px;
+    
+}
+
+.readmorebutton1:hover{
+    /* box-shadow:10px 0px 40px gray; ; */
+    text-shadow: 10px 0px 40px gray;
+    color:rgb(255, 102, 0);
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.readmorebutton2:hover{
+    /* box-shadow:10px 0px 40px gray; ; */
+    text-shadow: 10px 0px 40px gray;
+    color:rgb(255, 102, 0);
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.readmorebutton3:hover{
+    /* box-shadow:10px 0px 40px gray; ; */
+    text-shadow: 10px 0px 40px gray;
+    color:rgb(255, 102, 0);
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.productDetailHidden1{
+    position:absolute;
+    width:1000px;
+    height:800px;
+    background-color:burlywood;
+    top:-95px;
+    left:-5050px;
+    z-index: 1000;
+    transition: all .6s ease;
+}
+
+.productDetailHidden1.active{
+    left:100px;
+    z-index: 1000;
+    /* border-radius:; */
+    /* box-shadow: 10px 10px 1000px black; */
+    /* filter:brightness(0.5); */
+    transition: all .6s ease;
+}
+
+.cross1{
+    position:absolute;
+    left:970px;
+    top:10px;
+}
+.cross1:hover{
+    cursor: pointer;
+    color:chartreuse;
+}
+
+
+
+.productDetailHidden2{
+    position:absolute;
+    width:1000px;
+    height:800px;
+    background-color:burlywood;
+    top:-95px;
+    left:-5050px;
+    z-index: 1000;
+    transition: all .6s ease;
+}
+
+.productDetailHidden2.active{
+    left:-297px;
+    z-index: 1000;
+    /* border-radius:; */
+    /* box-shadow: 10px 10px 1000px black; */
+    /* filter:brightness(0.5); */
+    transition: all .6s ease;
+}
+
+.cross2{
+    position:absolute;
+    left:970px;
+    top:10px;
+}
+.cross2:hover{
+    cursor: pointer;
+    color:chartreuse;
+}
+
+
+
+
+
+.productDetailHidden3{
+    position:absolute;
+    width:1000px;
+    height:800px;
+    background-color:burlywood;
+    top:3445px;
+    left:-4950px;
+    z-index: 1000;
+    transition: all .6s ease;
+}
+
+.productDetailHidden3.active{
+    left:450px;
+    z-index: 1000;
+    /* border-radius:; */
+    /* box-shadow: 10px 10px 1000px black; */
+    /* filter:brightness(0.5); */
+    transition: all .6s ease;
+}
+
+.cross3{
+    position:absolute;
+    left:970px;
+    top:10px;
+}
+.cross3:hover{
+    cursor: pointer;
+    color:chartreuse;
+}
+
+.hiddendivforopacity{
+    position:absolute;
+    background-color: black;
+    opacity:0;
+    top:0;
+    left:0px;
+    height:5075px;
+}
+
+.hiddendivforopacity.active{
+    z-index:999;
+    transition: all .6s ease;
+    opacity:0.8;
+
+}
+
+.PDHCimg{
+    height:300px;
+}
+
+.PDHCindicators{
+    position:absolute;
+    top:260px;
+}
+
+.PDHCprev{
+    position:absolute;
+    top:-250px;
+}
+
+.productdetailtext{
+    
+    color:rgb(49, 28, 0);
+    position:relative;
+    top:-225px;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-top:0px
+}
+
+.developers{
+    width:100%;
+    /* height:1000px; */
+    color:burlywood;
+    padding: 50px;
+    margin:0;
+    /* display: block; */
+    background-color: rgb(1, 21, 24);
+    padding-top: 100px;
+    padding-bottom:200px;
+
+}
+
+.dev1{
+    
+    background-color:rgb(31, 31, 31);
+    padding-left:0;
+    margin-left:400px;
+}
+
+.lastpart{
+    color:rgb(14, 74, 82);
+    width:100%;
+    height:200px;
+    background-color: rgb(5, 35, 41);
+    padding:50px;
+}
+
+.producttitle{
+    color:rgb(207, 148, 72);
+}
+
+.productinner{
+    color:rgb(145, 103, 48);
+}
+
